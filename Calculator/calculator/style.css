@@ -4,7 +4,9 @@
     padding: 0;
     border: none;
   }
-
+#title {
+    margin-top: 100px;
+}
   html {
     font-size: 24px;
     font-family: 'Unica One', cursive;
