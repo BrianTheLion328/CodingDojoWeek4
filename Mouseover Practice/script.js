@@ -6,6 +6,6 @@ function changeBack(element) {
     element.style.backgroundColor = "white"
 }
 
-function changePageColor(element) {
+function floodPageColor(element) {
     document.getElementById("container").style.backgroundColor = element.innerText;
 }
