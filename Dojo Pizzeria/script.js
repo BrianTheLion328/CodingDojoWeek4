@@ -11,7 +11,7 @@ function pizzaOven(crustType, sauceType, cheese, toppings) {
     return pizza;
 }
 
-/* 2 Test Pizzas! */
+/* 2 Test Pizza objects */
 
 var briansPizza = pizzaOven("wheat", "tomato", "mozzarella", ["pepperoni", "mushroom", "basil"])
 console.log(briansPizza)
@@ -27,5 +27,3 @@ console.log(deepDishPizza)
 
 var handTossedPizza = pizzaOven("hand-tossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"])
 console.log(handTossedPizza)
-
-
