@@ -8,4 +8,5 @@ function changeBack(element) {
 
 function floodPageColor(element) {
     document.getElementById("container").style.backgroundColor = element.innerText;
+    document.getElementById("main-title").style.color = element.innerText;
 }
