@@ -5,3 +5,7 @@ function changeColor(element){
 function changeBack(element) {
     element.style.backgroundColor = "white"
 }
+
+function changePageColor(element) {
+    document.getElementById("container").style.backgroundColor = element.innerText;
+}
